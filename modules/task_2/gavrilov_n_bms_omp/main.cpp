@@ -10,7 +10,7 @@
 #include "../../modules/task_2/gavrilov_n_bms_omp/BatcherMergingSort.h"
 
 const int dataCount = 1000;
-const int maxSplitCount = 24;
+const int maxSplitCount = 6;
 
 bool IsSorted(const std::vector<int>& data) {
     if (data.size() == 0)
